@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+* {
+  margin: 0;
+  padding: 0;
+}
+#wrapper {
+  max-width: 1150px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto;
+}
+/* --NAV START-- */
+.nav {
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+.nav ul li:hover {
+  background: #E81123;
+  transition: 1s;
+}
+.nav ul li {
+  display: inline-block;
+  padding: 20px;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: #f9f9f9;
+  text-transform: uppercase;
+}
+/* --NAV END-- */
+/* --SLANTEDBG START-- */
+.thing1 {
+  height: 450px;
+  width: 100%;
+  margin-bottom: 190px;
+}
+.thing1 img {
+  width: 100%;
+  background-size: cover;
+}
+.thing2 {
+  background: #E81123;
+  color: #fff;
+  height: 350px;
+  padding-top: 140px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.thing2 h2 {
+  font-size: 30px;
+  font-family: 'Quicksand', sans-serif;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.thing2 p {
+  font-family: 'Quicksand', sans-serif;
+  line-height: 30px;
+  padding: 0 150px;
+}
+.thing2::before {
+  background: #E81123;
+  content: '';
+  height: 125px;
+  left: 0;
+  position: absolute;
+  transform: skewY(10deg);
+  top: -50px;
+  width: 60%;
+}
+.thing2::after {
+  background: #E81123;
+  content: '';
+  height: 125px;
+  right: 0;
+  position: absolute;
+  top: -50px;
+  transform: skewY(-10deg);
+  width: 60%;
+}
+/* --SLANTEDBG END-- */
+
+hr {
+  background: #E81123;
+  margin: 0 auto;
+  border: none;
+  height: 5px;
+  width: 10%;
+}
+.content1 {
+  background: #222;
+  color: #fff;
+  height: 450px;
+  padding-top: 140px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.content1 h2 {
+  color: #f9f9f9;
+  font-size: 30px;
+  font-family: 'Quicksand', sans-serif;
+  margin-bottom: 20px;
+  padding-top: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+  text-transform: uppercase;
+}
+.content1 p {
+  color: #f9f9f9;
+  font-family: 'Quicksand', sans-serif;
+  height: 350px;
+  line-height: 30px;
+  padding-top: 20px;
+  width: 100%;
+}
+.content2 {
+  background-image: url('../img/bg-cover.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  height: 450px;
+  padding-top: 140px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.content2 h2 {
+  color: #f9f9f9;
+  font-size: 30px;
+  font-family: 'Quicksand', sans-serif;
+  margin-bottom: 20px;
+  padding-top: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+  text-transform: uppercase;
+}
+.content2 p {
+  color: #f9f9f9;
+  font-family: 'Quicksand', sans-serif;
+  height: 350px;
+  line-height: 30px;
+  padding-top: 20px;
+  width: 100%;
+}
+
+footer {
+  background: #111;
+  color: #f7f7f7;
+  font-size: 10px;
+  font-family: 'Quicksand', sans-serif;
+  padding: 30px 0 30px 0;
+  text-align: center;
+}
